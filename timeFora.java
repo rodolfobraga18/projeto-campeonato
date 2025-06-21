@@ -8,7 +8,7 @@ public class timeFora extends time implements Marcagol {
     public timeFora() {
         super(e1.getNome(),e1.getQualidade());
         this.tempo = new ArrayList<>();
-        for(int i=0;i<10;i++){
+        for(int i=1;i<10;i++){
         tempo.add(i*10);}
     }
 
